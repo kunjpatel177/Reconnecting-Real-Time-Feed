@@ -1,0 +1,71 @@
+/* App-specific styling */
+.feed-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.update-item {
+  transition: background-color 0.2s ease-in-out;
+}
+
+.update-item:hover {
+  background-color: #f8f9fa;
+}
+
+.sequence-badge {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.9rem;
+}
+
+.timestamp-text {
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.status-connected {
+  background-color: #198754;
+}
+
+.status-connecting {
+  background-color: #ffc107;
+}
+
+.status-reconnecting {
+  background-color: #fd7e14;
+}
+
+.status-disconnected {
+  background-color: #dc3545;
+}
+
+.feed-scroll-container {
+  max-height: 440px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Subtle, clean scrollbar */
+.feed-scroll-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.feed-scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.feed-scroll-container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 3px;
+}
+
+.feed-scroll-container::-webkit-scrollbar-thumb:hover {
+  background: #999;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "caygnus-problem-3-reconnecting-real-time-feed",
+  "version": "1.0.0",
+  "description": "Caygnus Product Engineering Challenge - Problem 3: Reconnecting Real-Time Feed",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix server install && npm --prefix client install",
+    "dev:server": "npm --prefix server run dev",
+    "dev:client": "npm --prefix client run dev",
+    "start:server": "npm --prefix server start",
+    "build:client": "npm --prefix client run build",
+    "test": "npm --prefix server test"
+  },
+  "keywords": [
+    "real-time",
+    "socket.io",
+    "mongodb",
+    "reconnection",
+    "cursor-recovery",
+    "deduplication",
+    "incident-feed"
+  ],
+  "author": "",
+  "license": "ISC"
+}
