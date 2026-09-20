@@ -2,7 +2,7 @@
 
 ## Candidate
 
-- **Name**: [Candidate Name]
+- **Name**: kunj patel
 - **Email**: [Candidate Email]
 - **GitHub**: [Candidate GitHub Profile]
 - **Selected problem**: Problem 3 — Reconnecting Real-Time Feed
